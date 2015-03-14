@@ -1,0 +1,16 @@
+
+project: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<000000547D66A588>                         Feature call on void target.  Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<000000547D66A588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------

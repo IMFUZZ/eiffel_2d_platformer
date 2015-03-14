@@ -1,0 +1,39 @@
+
+#ifndef _C19_au904_
+#define _C19_au904_
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+extern void F137_8360(EIF_REFERENCE, EIF_REFERENCE);
+extern void F137_8361(EIF_REFERENCE);
+extern void F137_8362(EIF_REFERENCE);
+extern void F137_8363(EIF_REFERENCE);
+extern void F137_8364(EIF_REFERENCE, EIF_POINTER, EIF_INTEGER_32);
+extern EIF_INTEGER_32 F137_8365(EIF_REFERENCE);
+extern EIF_INTEGER_32 F137_8367(EIF_REFERENCE);
+extern EIF_INTEGER_32 F137_8368(EIF_REFERENCE);
+extern EIF_INTEGER_32 F137_8369(EIF_REFERENCE);
+extern void F137_8372(EIF_REFERENCE);
+extern EIF_REFERENCE F137_8373(EIF_REFERENCE);
+extern void EIF_Minit904(void);
+extern EIF_INTEGER_32 F684_8890(EIF_REFERENCE);
+extern void F684_8889(EIF_REFERENCE, EIF_REFERENCE);
+extern EIF_REFERENCE F35_116(EIF_REFERENCE);
+extern void F684_8898(EIF_REFERENCE);
+extern void F684_8901(EIF_REFERENCE);
+extern void F684_8891(EIF_REFERENCE, EIF_INTEGER_32);
+extern EIF_REFERENCE F1_24(EIF_REFERENCE);
+extern void F684_8900(EIF_REFERENCE);
+extern char *(*R2875[])();
+extern char *(*R6674[])();
+extern long O6675[];
+extern long O6684[];
+extern long O6685[];
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif

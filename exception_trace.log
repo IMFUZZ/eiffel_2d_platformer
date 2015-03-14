@@ -1,0 +1,535 @@
+Catcall detected in {ARRAYED_LIST}.extend for arg#1: expected GAME_SURFACE_IMG_FILE but got GAME_SUB_SURFACE
+Catcall detected in {ARRAYED_LIST}.extend for arg#1: expected GAME_SURFACE_IMG_FILE but got GAME_SUB_SURFACE
+
+project: PANIC: Unexpected harmful signal (Segmentation violation) ...
+
+project: system execution failed.
+Following is the set of recorded exceptions.
+NB: The raised panic may have induced completely inconsistent information:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+INTEGER_32          is_greater             Segmentation violation:      
+<0000001E782E74A8>  (From COMPARABLE)      Operating system signal.      Fail
+-------------------------------------------------------------------------------
+INTEGER_32          is_greater                                          
+<0000001E782E74A8>  (From COMPARABLE)      Routine failure.              Fail
+-------------------------------------------------------------------------------
+PERFORMER           change_animation @4                                 
+<0000001E782C71D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PERFORMER           update @5                                           
+<0000001E782C71D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+LEVEL_ONE_SCENE     calculate_logic @9                                  
+<0000001E782C7188>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+LEVEL_ONE_SCENE     update @3                                           
+<0000001E782C7188>  (From BASIC_SCENE)     Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               update @3                                           
+<0000001E782C69D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<0000001E782D8168>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<0000001E782D8168>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ACTION_SEQUENCE     call @22                                            
+<0000001E782C5778>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_EVENT_CONTROLLER
+                    decode_iteration_event @1
+<0000001E782C5678>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_EVENT_CONTROLLER
+                    poll_event @1          
+<0000001E782C5678>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_LIB_CONTROLLER update @1                                           
+<0000001E782C55E8>  (From GAME_SDL_CONTROLLER)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_LIB_CONTROLLER launch @4                                           
+<0000001E782C55E8>  (From GAME_SDL_CONTROLLER)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               start @4                                            
+<0000001E782C69D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               make @4                                             
+<0000001E782C69D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         run @1                                              
+<0000001E782C55A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @7                                             
+<0000001E782C55A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000001E782C55A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        Unexpected harmful signal (Segmentation violation):
+<0000001E782C55A8>                         Eiffel run-time panic.        Bye
+-------------------------------------------------------------------------------
+
+project: PANIC: Unexpected harmful signal (Segmentation violation) ...
+
+project: system execution failed.
+Following is the set of recorded exceptions.
+NB: The raised panic may have induced completely inconsistent information:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+REAL_64             is_greater             Segmentation violation:      
+<0000002BA238D8F8>  (From COMPARABLE)      Operating system signal.      Fail
+-------------------------------------------------------------------------------
+REAL_64             is_greater                                          
+<0000002BA238D8F8>  (From COMPARABLE)      Routine failure.              Fail
+-------------------------------------------------------------------------------
+PERFORMER           change_animation @4                                 
+<0000002BA23441D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PERFORMER           update @2                                           
+<0000002BA23441D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+LEVEL_ONE_SCENE     calculate_logic @9                                  
+<0000002BA2344188>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+LEVEL_ONE_SCENE     update @3                                           
+<0000002BA2344188>  (From BASIC_SCENE)     Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               update @3                                           
+<0000002BA23439D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<0000002BA2355168>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<0000002BA2355168>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ACTION_SEQUENCE     call @22                                            
+<0000002BA2342778>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_EVENT_CONTROLLER
+                    decode_iteration_event @1
+<0000002BA2342678>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_EVENT_CONTROLLER
+                    poll_event @1          
+<0000002BA2342678>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_LIB_CONTROLLER update @1                                           
+<0000002BA23425E8>  (From GAME_SDL_CONTROLLER)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_LIB_CONTROLLER launch @4                                           
+<0000002BA23425E8>  (From GAME_SDL_CONTROLLER)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               start @4                                            
+<0000002BA23439D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               make @4                                             
+<0000002BA23439D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         run @1                                              
+<0000002BA23425A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @7                                             
+<0000002BA23425A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000002BA23425A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        Unexpected harmful signal (Segmentation violation):
+<0000002BA23425A8>                         Eiffel run-time panic.        Bye
+-------------------------------------------------------------------------------
+
+project: PANIC: Unexpected harmful signal (Segmentation violation) ...
+
+project: system execution failed.
+Following is the set of recorded exceptions.
+NB: The raised panic may have induced completely inconsistent information:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+REAL_64             is_greater             Segmentation violation:      
+<000000DD9BDBFA78>  (From COMPARABLE)      Operating system signal.      Fail
+-------------------------------------------------------------------------------
+REAL_64             is_greater                                          
+<000000DD9BDBFA78>  (From COMPARABLE)      Routine failure.              Fail
+-------------------------------------------------------------------------------
+PERFORMER           change_animation @4                                 
+<000000DD9BD8A1D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PERFORMER           update @2                                           
+<000000DD9BD8A1D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+LEVEL_ONE_SCENE     calculate_logic @9                                  
+<000000DD9BD8A188>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+LEVEL_ONE_SCENE     update @3                                           
+<000000DD9BD8A188>  (From BASIC_SCENE)     Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               update @3                                           
+<000000DD9BD899D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<000000DD9BD9B168>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<000000DD9BD9B168>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ACTION_SEQUENCE     call @22                                            
+<000000DD9BD88778>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_EVENT_CONTROLLER
+                    decode_iteration_event @1
+<000000DD9BD88678>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_EVENT_CONTROLLER
+                    poll_event @1          
+<000000DD9BD88678>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_LIB_CONTROLLER update @1                                           
+<000000DD9BD885E8>  (From GAME_SDL_CONTROLLER)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_LIB_CONTROLLER launch @4                                           
+<000000DD9BD885E8>  (From GAME_SDL_CONTROLLER)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               start @4                                            
+<000000DD9BD899D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               make @4                                             
+<000000DD9BD899D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         run @1                                              
+<000000DD9BD885A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @7                                             
+<000000DD9BD885A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<000000DD9BD885A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        Unexpected harmful signal (Segmentation violation):
+<000000DD9BD885A8>                         Eiffel run-time panic.        Bye
+-------------------------------------------------------------------------------
+
+project: PANIC: Unexpected harmful signal (Segmentation violation) ...
+
+project: system execution failed.
+Following is the set of recorded exceptions.
+NB: The raised panic may have induced completely inconsistent information:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+REAL_64             is_greater             Segmentation violation:      
+<0000006EC77A5938>  (From COMPARABLE)      Operating system signal.      Fail
+-------------------------------------------------------------------------------
+REAL_64             is_greater                                          
+<0000006EC77A5938>  (From COMPARABLE)      Routine failure.              Fail
+-------------------------------------------------------------------------------
+PERFORMER           change_animation @5                                 
+<0000006EC778A1D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PERFORMER           update @2                                           
+<0000006EC778A1D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+LEVEL_ONE_SCENE     calculate_logic @9                                  
+<0000006EC778A188>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+LEVEL_ONE_SCENE     update @3                                           
+<0000006EC778A188>  (From BASIC_SCENE)     Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               update @3                                           
+<0000006EC77899D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<0000006EC779B168>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<0000006EC779B168>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ACTION_SEQUENCE     call @22                                            
+<0000006EC7788778>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_EVENT_CONTROLLER
+                    decode_iteration_event @1
+<0000006EC7788678>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_EVENT_CONTROLLER
+                    poll_event @1          
+<0000006EC7788678>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_LIB_CONTROLLER update @1                                           
+<0000006EC77885E8>  (From GAME_SDL_CONTROLLER)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_LIB_CONTROLLER launch @4                                           
+<0000006EC77885E8>  (From GAME_SDL_CONTROLLER)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               start @4                                            
+<0000006EC77899D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               make @4                                             
+<0000006EC77899D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         run @1                                              
+<0000006EC77885A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @7                                             
+<0000006EC77885A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000006EC77885A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        Unexpected harmful signal (Segmentation violation):
+<0000006EC77885A8>                         Eiffel run-time panic.        Bye
+-------------------------------------------------------------------------------
+
+project: PANIC: Unexpected harmful signal (Segmentation violation) ...
+
+project: system execution failed.
+Following is the set of recorded exceptions.
+NB: The raised panic may have induced completely inconsistent information:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+INTEGER_32          is_greater             Segmentation violation:      
+<0000006393D9C378>  (From COMPARABLE)      Operating system signal.      Fail
+-------------------------------------------------------------------------------
+INTEGER_32          is_greater                                          
+<0000006393D9C378>  (From COMPARABLE)      Routine failure.              Fail
+-------------------------------------------------------------------------------
+PERFORMER           change_animation @5                                 
+<0000006393D5B1D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PERFORMER           update @2                                           
+<0000006393D5B1D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+LEVEL_ONE_SCENE     calculate_logic @9                                  
+<0000006393D5B188>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+LEVEL_ONE_SCENE     update @3                                           
+<0000006393D5B188>  (From BASIC_SCENE)     Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               update @3                                           
+<0000006393D5A9D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<0000006393D6C168>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<0000006393D6C168>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ACTION_SEQUENCE     call @22                                            
+<0000006393D59778>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_EVENT_CONTROLLER
+                    decode_iteration_event @1
+<0000006393D59678>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_EVENT_CONTROLLER
+                    poll_event @1          
+<0000006393D59678>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_LIB_CONTROLLER update @1                                           
+<0000006393D595E8>  (From GAME_SDL_CONTROLLER)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_LIB_CONTROLLER launch @4                                           
+<0000006393D595E8>  (From GAME_SDL_CONTROLLER)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               start @4                                            
+<0000006393D5A9D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               make @4                                             
+<0000006393D5A9D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         run @1                                              
+<0000006393D595A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @7                                             
+<0000006393D595A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000006393D595A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        Unexpected harmful signal (Segmentation violation):
+<0000006393D595A8>                         Eiffel run-time panic.        Bye
+-------------------------------------------------------------------------------
+
+project: PANIC: Unexpected harmful signal (Segmentation violation) ...
+
+project: system execution failed.
+Following is the set of recorded exceptions.
+NB: The raised panic may have induced completely inconsistent information:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+INTEGER_32          is_greater             Segmentation violation:      
+<000000E28967E2B8>  (From COMPARABLE)      Operating system signal.      Fail
+-------------------------------------------------------------------------------
+INTEGER_32          is_greater                                          
+<000000E28967E2B8>  (From COMPARABLE)      Routine failure.              Fail
+-------------------------------------------------------------------------------
+PERFORMER           change_animation @5                                 
+<000000E28965E1D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PERFORMER           update @2                                           
+<000000E28965E1D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+LEVEL_ONE_SCENE     calculate_logic @9                                  
+<000000E28965E188>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+LEVEL_ONE_SCENE     update @3                                           
+<000000E28965E188>  (From BASIC_SCENE)     Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               update @3                                           
+<000000E28965D9D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<000000E28966F168>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<000000E28966F168>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ACTION_SEQUENCE     call @22                                            
+<000000E28965C778>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_EVENT_CONTROLLER
+                    decode_iteration_event @1
+<000000E28965C678>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_EVENT_CONTROLLER
+                    poll_event @1          
+<000000E28965C678>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_LIB_CONTROLLER update @1                                           
+<000000E28965C5E8>  (From GAME_SDL_CONTROLLER)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_LIB_CONTROLLER launch @4                                           
+<000000E28965C5E8>  (From GAME_SDL_CONTROLLER)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               start @4                                            
+<000000E28965D9D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               make @4                                             
+<000000E28965D9D8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         run @1                                              
+<000000E28965C5A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @7                                             
+<000000E28965C5A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<000000E28965C5A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        Unexpected harmful signal (Segmentation violation):
+<000000E28965C5A8>                         Eiffel run-time panic.        Bye
+-------------------------------------------------------------------------------
+
+project: PANIC: Unexpected harmful signal (Segmentation violation) ...
+
+project: system execution failed.
+Following is the set of recorded exceptions.
+NB: The raised panic may have induced completely inconsistent information:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+NATURAL_8           is_greater_equal       Segmentation violation:      
+<000000E70ADBB4A8>  (From COMPARABLE)      Operating system signal.      Fail
+-------------------------------------------------------------------------------
+NATURAL_8           is_greater_equal                                    
+<000000E70ADBB4A8>  (From COMPARABLE)      Routine failure.              Fail
+-------------------------------------------------------------------------------
+MAIN_MENU_SCENE     draw_black_background @1
+<000000E70ADB2578>  (From BASIC_SCENE)     Routine failure.              Fail
+-------------------------------------------------------------------------------
+MAIN_MENU_SCENE     update @1                                           
+<000000E70ADB2578>  (From BASIC_SCENE)     Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               update @2                                           
+<000000E70ADA9A58>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<000000E70ADBB348>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<000000E70ADBB348>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ACTION_SEQUENCE     call @22                                            
+<000000E70ADA8778>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_EVENT_CONTROLLER
+                    decode_iteration_event @1
+<000000E70ADA8678>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_EVENT_CONTROLLER
+                    poll_event @1          
+<000000E70ADA8678>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_LIB_CONTROLLER update @1                                           
+<000000E70ADA85E8>  (From GAME_SDL_CONTROLLER)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME_LIB_CONTROLLER launch @4                                           
+<000000E70ADA85E8>  (From GAME_SDL_CONTROLLER)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               start @4                                            
+<000000E70ADA9A58>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+FRAME               make @4                                             
+<000000E70ADA9A58>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         run @2                                              
+<000000E70ADA85A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @7                                             
+<000000E70ADA85A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<000000E70ADA85A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        Unexpected harmful signal (Segmentation violation):
+<000000E70ADA85A8>                         Eiffel run-time panic.        Bye
+-------------------------------------------------------------------------------
